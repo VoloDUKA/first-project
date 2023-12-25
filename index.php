@@ -37,3 +37,20 @@ $Tel = mysqli_fetch_all($Tel);
         <?php
       }
     ?>
+</table>
+  <h2>Внесения новых данных о технике и сотруднике ответственного за технику</h2>
+  <form action="vendor/create.php" method="post">
+    <p>Номер техники</p>
+    <textarea name="name"></textarea>
+    <p>Наименование техники</p>
+    <input type ="number" name= "videl">
+    <p>Состояние техники</p>
+    <input type="number" name="zatr">
+    <p>ФИО сотрудника</p>
+    <input type="number" name="ost">
+    <p>Дата покупки</p>
+    <input type="number" name="dat">
+    <button type="submit">Добавить</button>
+  </form>
+</body>
+</html>
